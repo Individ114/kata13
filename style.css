@@ -18,25 +18,25 @@ body {
   padding: 18px 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   list-style: none;
   line-height: 0px; }
   .menu .menu__line--visible {
     display: none; }
-  .menu .menu__line {
-    margin-left: auto; }
   .menu .menu__li-icon {
-    margin: 0 16px; }
-  .menu .menu__li-icon + .menu__li-icon {
-    margin-left: 0; }
+    margin: 0 16px 0 0; }
+  .menu .menu__li-icon:first-child {
+    margin: 0 0 0 16px; }
   .menu .menu__li-icon--call,
   .menu .menu__li-icon--chat,
   .menu .menu__li-icon--profile {
     display: none; }
+  .menu .menu__li-icon--left {
+    margin-left: auto; }
   @media (min-width: 768px) {
     .menu .menu__line--visible {
       display: block; }
-    .menu .menu__line {
+    .menu .menu__li-icon--left {
       margin-left: 0; }
     .menu .menu__li-icon--call {
       margin-left: auto; }
