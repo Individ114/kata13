@@ -35,7 +35,8 @@ body {
     margin-left: auto; }
   @media (min-width: 768px) {
     .menu .menu__line--visible {
-      display: block; }
+      display: block; 
+      margin-left: 16px;}
     .menu .menu__li-icon--left {
       margin-left: 0; }
     .menu .menu__li-icon--call {
