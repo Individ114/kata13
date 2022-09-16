@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8" />
@@ -11,56 +11,67 @@
 </head>
 
 <body>
-  <!-- //////////////////////////////// Nav -->
-  <nav class="nav">
-    <button class="nav__button" title="меню"></button>
+
+  <!-- //////////////////////////////// menu-nav -->
+
+  <nav class="menu-nav">
+    <button class="button menu-nav__button link-circle-pink" title="меню"></button>
 
     <a class="logotype" href=""><img class="logotype__img-logo" src="img/logo.svg" alt="логотип" /></a>
 
-    <div class="nav__wrapper">
-      <a class="nav__link nav__link--icon-call nav__link--left" href="" title="связаться"></a>
-      <a class="nav__link nav__link--icon-chat" href="" title="чат"></a>
-      <a class="nav__link nav__link--icon-profile" href="" title="профиль"></a>
+    <div class="communication menu-nav__communication">
+      <a class="communication__link--icon-call link-circle-pink" href="" title="связаться"></a>
+      <a class="communication__link--icon-chat link-circle-pink" href="" title="чат"></a>
+      <a class="communication__link--icon-profile link-circle-pink" href="" title="профиль"></a>
     </div>
 
-    <a class="nav__link nav__link--icon-repair nav__link--left " href="" title="ремонт"></a>
-    <a class="nav__link nav__link--icon-checkstatus" href="" title="статус заказа"></a>
+    <div class="menu-nav__order">
+      <a class="menu-nav__link menu-nav__link--icon-repair link-circle-pink" href="" title="ремонт"></a>
+      <a class="menu-nav__link menu-nav__link--icon-checkstatus link-circle-pink" href="" title="статус заказа"></a>
+    </div>
   </nav>
-  <!-- //////////////////////////////// Main -->
+
+  <!-- //////////////////////////////// main -->
+
   <main class="main">
-    <section class="header-content">
+
+    <!-- //////////////////////////////// header-content -->
+
+    <div class="heading-wrapper">
       <h1 class="heading">Услуги и сервисы</h1>
 
-      <span class="header-content__text-link header-content__text-link--left">Оставить заявку</span>
-      <a class="header-content__link header-content__link--icon-repair header-content__link--margin-r " href=""
-        title="ремонт"></a>
+      <nav class="mini-nav">
+        <a class="mini-nav__link mini-nav__link--icon-repair" href="">Оставить заявку</a>
+        <a class="mini-nav__link mini-nav__link--icon-checkstatus" href="">Статус ремонта</a>
+      </nav>
+    </div>
 
-      <span class="header-content__text-link">Статус ремонта</span>
-      <a class="header-content__link header-content__link--icon-checkstatus " href="" title="статус заказа"></a>
-    </section>
+    <!-- ////////////////////////////////// service-nav -->
 
-    <section class="service">
-      <ul class="service__list">
-        <li class="service__item service__item--active  ">
-          <a class="service__link" href="">Ремонтируемые бренды</a>
+    <nav class="service-nav">
+      <ul class="service-nav__list">
+        <li class="service-nav__item ">
+          <a class="service-nav__link service-nav__link--active" href="">Ремонтируемые бренды</a>
         </li>
-        <li class="service__item  ">
-          <a class="service__link" href="">Дополнительные услуги</a>
+        <li class="service-nav__item  ">
+          <a class="service-nav__link" href="">Дополнительные услуги</a>
         </li>
-        <li class="service__item">
-          <a class="service__link" href="">Цены на услуги</a>
+        <li class="service-nav__item">
+          <a class="service-nav__link" href="">Цены на услуги</a>
         </li>
-        <li class="service__item">
-          <a class="service__link" href="">Адреса сервисных центров</a>
+        <li class="service-nav__item">
+          <a class="service-nav__link" href="">Адреса сервисных центров</a>
         </li>
-        <li class="service__item">
-          <a class="service__link" href="">Специальные цены</a>
+        <li class="service-nav__item">
+          <a class="service-nav__link" href="">Специальные цены</a>
         </li>
-        <li class="service__item">
-          <a class="service__link" href="">Отзывы</a>
+        <li class="service-nav__item">
+          <a class="service-nav__link" href="">Отзывы</a>
         </li>
       </ul>
-    </section>
+    </nav>
+
+    <!-- /////////////////////////////////// content -->
 
     <section class="content">
       <div class="content__description">
