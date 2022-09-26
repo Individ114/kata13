@@ -1,0 +1,16 @@
+.langs {
+    @include flexble(row, 7px);
+    align-items: flex-end;
+    flex: 1 1 auto;
+
+    .langs__link {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        color: #1b1c21;
+        text-decoration: none;
+    }
+    .langs__link--active {
+        color: #7e7e82;
+    }
+}

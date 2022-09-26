@@ -14,22 +14,28 @@
 
   <!-- //////////////////////////////// menu-nav -->
 
-  <nav class="menu-nav">
-    <button class="button menu-nav__button link-circle-pink" title="меню"></button>
+  <aside class="menu-nav">
+    <button class="link-circle-pink link-circle-pink--burger" title="меню"></button>
 
     <a class="logotype" href=""><img class="logotype__img-logo" src="img/logo.svg" alt="логотип" /></a>
 
-    <div class="communication menu-nav__communication">
-      <a class="communication__link--icon-call link-circle-pink" href="" title="связаться"></a>
-      <a class="communication__link--icon-chat link-circle-pink" href="" title="чат"></a>
-      <a class="communication__link--icon-profile link-circle-pink" href="" title="профиль"></a>
-    </div>
+    <ul class="communication menu-nav__communication">
+      <li class="communication__item">
+        <a class="link-circle-pink link-circle-pink--call communication__link" href="" title="связаться"></a>
+      </li>
+      <li class="communication__item">
+        <a class="link-circle-pink link-circle-pink--chat communication__link" href="" title="чат"></a>
+      </li>
+      <li class="communication__item">
+        <a class="link-circle-pink link-circle-pink--profile communication__link" href="" title="профиль"></a>
+      </li>
+    </ul>
 
     <div class="menu-nav__order">
-      <a class="menu-nav__link menu-nav__link--icon-repair link-circle-pink" href="" title="ремонт"></a>
-      <a class="menu-nav__link menu-nav__link--icon-checkstatus link-circle-pink" href="" title="статус заказа"></a>
+      <a class="link-circle-pink link-circle-pink--repair" href="" title="ремонт"></a>
+      <a class="link-circle-pink link-circle-pink--checkstatus" href="" title="статус заказа"></a>
     </div>
-  </nav>
+  </aside>
 
   <!-- //////////////////////////////// main -->
 
@@ -41,8 +47,12 @@
       <h1 class="heading">Услуги и сервисы</h1>
 
       <nav class="mini-nav">
-        <a class="mini-nav__link mini-nav__link--icon-repair" href="">Оставить заявку</a>
-        <a class="mini-nav__link mini-nav__link--icon-checkstatus" href="">Статус ремонта</a>
+        <a class="mini-nav__link" href="">Оставить заявку
+          <span class="link-circle-pink link-circle-pink--repair"></span>
+        </a>
+        <a class=" mini-nav__link" href="">Статус ремонта
+          <span class="link-circle-pink link-circle-pink--checkstatus"></span>
+        </a>
       </nav>
     </div>
 

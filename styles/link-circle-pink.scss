@@ -1,0 +1,42 @@
+.link-circle-pink {
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: $color-pink;
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+.link-circle-pink--call {
+    background-image: url("../img/call.svg");
+}
+.link-circle-pink--chat {
+    background-image: url("../img/chat.svg");
+}
+.link-circle-pink--profile {
+    background-image: url("../img/profile.svg");
+}
+.link-circle-pink--burger {
+    background-image: url("../img/burger.svg");
+}
+.link-circle-pink--close {
+    background-image: url("../img/iks.svg");
+}
+.link-circle-pink--search {
+    background-image: url("../img/lupa.svg");
+}
+.link-circle-pink--repair {
+    background-image: url("../img/repair.svg");
+}
+.link-circle-pink--checkstatus {
+    background-image: url("../img/checkstatus.svg");
+}
+
+.link-circle-pink:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
